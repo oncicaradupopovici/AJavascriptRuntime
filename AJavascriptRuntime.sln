@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{B50992D9-33CC-40B1-9059-F9213F4CC829}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{E4F02BB6-B4B8-4F4A-B9B1-39D3D974B7F8}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "AJavascriptRuntime", "src\AJavascriptRuntime\AJavascriptRuntime.xproj", "{8E82C06C-A86A-4862-B6BF-C2BFD923C584}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{20F941B7-B4C5-4B5E-A17B-CD730A939FB7}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Tests", "test\Tests\Tests.xproj", "{456DEBD4-B9DD-4D05-846D-FEA9D206A148}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8E82C06C-A86A-4862-B6BF-C2BFD923C584}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E82C06C-A86A-4862-B6BF-C2BFD923C584}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E82C06C-A86A-4862-B6BF-C2BFD923C584}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E82C06C-A86A-4862-B6BF-C2BFD923C584}.Release|Any CPU.Build.0 = Release|Any CPU
+		{456DEBD4-B9DD-4D05-846D-FEA9D206A148}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{456DEBD4-B9DD-4D05-846D-FEA9D206A148}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{456DEBD4-B9DD-4D05-846D-FEA9D206A148}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{456DEBD4-B9DD-4D05-846D-FEA9D206A148}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8E82C06C-A86A-4862-B6BF-C2BFD923C584} = {B50992D9-33CC-40B1-9059-F9213F4CC829}
+		{456DEBD4-B9DD-4D05-846D-FEA9D206A148} = {20F941B7-B4C5-4B5E-A17B-CD730A939FB7}
+	EndGlobalSection
+EndGlobal
